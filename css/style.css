@@ -114,6 +114,23 @@ hr {
   grid-column: 1/-1;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --one: #111111;
+    --two: #6e6e6e;
+    --tree: #1d1d1d;
+    --text: #eeeeee;
+  }
+
+  footer {
+    color: var(--text);
+  }
+
+  header {
+    color: var(--text);
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .body {
     grid-template-columns: repeat(1, 1fr);
