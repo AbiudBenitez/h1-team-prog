@@ -13,6 +13,10 @@
   --text: #111111;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--one);
   color: var(--text);
@@ -82,10 +86,6 @@ i {
   background-color: var(--two);
   color: var(--one);
   border-radius: 50%;
-}
-
-.noscroll {
-  transform: translateX(-100px);
 }
 
 footer {
