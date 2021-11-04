@@ -45,6 +45,10 @@ a {
 .nav {
   display: flex;
   justify-content: center;
+  position: sticky;
+  padding-top: 1rem;
+  left: 0;
+  top: 0;
 }
 
 .list1 li {
